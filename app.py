@@ -23,6 +23,7 @@ def count(username):
             "Cache-Control": "no-cache, no-store, must-revalidate",
             "Pragma":        "no-cache",
             "Expires":       "0",
+            "s-maxage":      "1",
         }
     )
 
